@@ -48,10 +48,6 @@ public class Menu extends JMenuBar {
 
 
     public Menu(){
-        initMenu();
-    }
-
-    public void initMenu(){
         menu = new JMenuBar();
 
         //*** FILE ***
@@ -131,11 +127,6 @@ public class Menu extends JMenuBar {
         help.add(seeHelp);
 
         menu.add(help);
-
-
-
-
-
 
     }
 
