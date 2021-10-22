@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Element;
@@ -14,11 +15,20 @@ public class TextArea extends JScrollPane {
         textArea = new JTextArea();
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
+        textArea.setText("");
+        textArea.setBackground(Color.DARK_GRAY);
+        textArea.setForeground(Color.WHITE);
+        textArea.setCaretColor(Color.WHITE);
+        textArea.setFont(new Font("Console", Font.PLAIN, 14));
+        textArea.setBorder(new EmptyBorder(0,10,0,10));
+        textArea.setTabSize(2);
         this.setViewportView(textArea);
 
         lines= new JTextArea("1"+"        ");
-        lines.setBackground(Color.DARK_GRAY);
-        lines.setForeground(Color.LIGHT_GRAY);
+        lines.setBorder(textArea.getBorder());
+        lines.setFont(textArea.getFont());
+        lines.setBackground(new Color(0,128,106));
+        lines.setForeground(Color.white);
         lines.setEditable(false);
         lines.setFocusable(false);
         textArea.getDocument().addDocumentListener(new DocumentListener() {
@@ -48,7 +58,9 @@ public class TextArea extends JScrollPane {
 
     }
 
-
+    public JTextArea getTextArea() {
+        return textArea;
+    }
 
     public void setText(String text){
         textArea.setText(text);
