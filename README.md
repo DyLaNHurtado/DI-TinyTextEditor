@@ -7,9 +7,9 @@ Text Editor made in Java Swing
 - Java JDK 11(Amazon Coretto)
 <br/>
 <br/>
-#### Made by **Dylan Hurtado** in **IntelliJ IDEA**
+#### Made by **Dylan Hurtado** in **IntelliJ
 <br/>
+### App Version 1.0:
 <br/>
-### App version 1.0:
+![imageVersion1.0](https://raw.githubusercontent.com/DyLaNHurtado/TinyTextEditor/master/Captura.PNG)
 <br/>
-![ImagenCaptura](https://raw.githubusercontent.com/DyLaNHurtado/TinyTextEditor/master/Captura.PNG)
