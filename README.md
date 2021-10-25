@@ -12,4 +12,4 @@ Text Editor made in Java Swing
 <br/>
 ### App version 1.0:
 <br/>
-![ImagenTTeditor](https://raw.githubusercontent.com/DyLaNHurtado/TinyTextEditor/master/captura.PNG)
+![ImagenTTeditor](https://raw.githubusercontent.com/DyLaNHurtado/TinyTextEditor/master/Captura.PNG)
