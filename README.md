@@ -2,7 +2,7 @@
 Text Editor made in Java Swing
 <br/>
 <br/>
-#### Made by **Dylan Hurtado** in **IntelliJ
+#### Made by **Dylan Hurtado** in **IntelliJ**
 <br/>
 ### App Version 1.0:
 <br/>
