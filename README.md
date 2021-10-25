@@ -4,8 +4,10 @@ Text Editor made in Java Swing
 #### Made by **Dylan Hurtado** in **IntelliJ**
 <br/>
 ### Technology used:
-- Maven
-- Java JDK 11(Amazon Coretto)
+<ul>
+  <li>Maven</li>
+  <li>Java 11 (Amazon Coretto)</li>
+</ul>
 <br/>
 ### App Version 1.0:
 <br/>
